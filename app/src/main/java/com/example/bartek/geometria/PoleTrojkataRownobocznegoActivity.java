@@ -16,7 +16,7 @@ public class PoleTrojkataRownobocznegoActivity extends AppCompatActivity {
     Button guzik;
     EditText bok;
     TextView wynik;
-
+    //some changes
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
