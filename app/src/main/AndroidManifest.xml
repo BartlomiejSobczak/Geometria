@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bartek.geometria">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PoleKwadratuActivity"
+            android:label="@string/title_activity_pole_kwadratu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PoleProstokataActivity"
+            android:label="@string/title_activity_pole_prostokata"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PoleKolaActivity"
+            android:label="@string/title_activity_pole_kola"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PoleRombuActivity"
+            android:label="@string/title_activity_pole_rombu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PoleTrojkataProstokatnegoActivity"
+            android:label="@string/title_activity_pole_trojkata_prostokatnego"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PoleTrojkataRownobocznegoActivity"
+            android:label="@string/title_activity_pole_trojkata_rownobocznego"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
